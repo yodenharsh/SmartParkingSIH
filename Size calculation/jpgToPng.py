@@ -1,3 +1,3 @@
 from PIL import Image
-img = Image.open("/tmp/example.jpg")
+img = Image.open("example.jpg")
 img.save("example.png")

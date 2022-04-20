@@ -107,6 +107,10 @@ for c in cnts:
 	# compute the size of the object
 	dimA = dA / pixelsPerMetric
 	dimB = dB / pixelsPerMetric
+	#if(dimA < X && dimB < Y)
+	#continue
+	#return dimensions[dimA, dimB]
+	print(dimA ," +  ",dimB, "\n\n")
 
 	# draw the object sizes on the image
 	cv2.putText(orig, "{:.1f}in".format(dimA),
